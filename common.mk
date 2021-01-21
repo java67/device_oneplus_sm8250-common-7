@@ -304,6 +304,10 @@ PRODUCT_PACKAGES += \
     Adaway \
     Sounds
 
+#Build libjamesdsp
+PRODUCT_PACKAGES += \
+    JamesDSPManager
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.oneplus_kona \
