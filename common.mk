@@ -304,11 +304,6 @@ PRODUCT_PACKAGES += \
 #FOD animations
 EXTRA_FOD_ANIMATIONS := true
 
-# Prebuilts
-PRODUCT_PACKAGES += \
-    Adaway \
-    Sounds
-
 #Build libjamesdsp
 PRODUCT_PACKAGES += \
     JamesDSPManager
