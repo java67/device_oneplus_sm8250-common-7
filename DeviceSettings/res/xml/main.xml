@@ -44,18 +44,6 @@
             android:title="@string/auto_hbm_threshold_title"
             android:summary="@string/auto_hbm_threshold_summary" />
     </PreferenceCategory>
-
-        <Preference
-            android:key="panel_category"
-            android:icon="@drawable/ic_panel_modes_icon"
-            android:title="@string/panel_category_title"
-            android:summary="@string/panel_category_summary"
-            android:persistent="false" >
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.evolution.device.DeviceSettings"
-                    android:targetClass="org.evolution.device.DeviceSettings.PanelSettingsActivity" />
-        </Preference>
-    </PreferenceCategory>
     
     <PreferenceCategory
         android:key="doze"

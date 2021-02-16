@@ -8,3 +8,6 @@ allow hal_lineage_fod_default sysfs_fod:file rw_file_perms;
 
 allow hal_lineage_fod_default sysfs_dm:file write;
 allow hal_lineage_fod_default sysfs_dm:file open;
+
+allow hal_lineage_fod_default sysfs_color:file { read write };
+allow hal_lineage_fod_default sysfs_dm:file { getattr read };
