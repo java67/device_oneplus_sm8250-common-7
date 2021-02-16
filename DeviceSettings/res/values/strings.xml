@@ -18,8 +18,8 @@
     <string name="hbm_mode_summary"></string>
     <string name="hbm_mode_title">High brightness mode</string>
     <string name="auto_hbm_summary"></string>
-    <string name="hbm_mode_warning">Long time usage of High brightness mode may damage your display</string>
     <string name="auto_hbm_title">Automatic High brightness mode</string>
+    <string name="hbm_mode_warning">Long time usage of High brightness mode may damage your display</string>
     <string name="auto_hbm_threshold_title">Automatic High brightness mode threshold (lux)</string>
     <string name="auto_hbm_threshold_summary"></string>
     <string name="dc_mode_summary"></string>
@@ -32,9 +32,9 @@
     <string name="tile_refresh_rate">Screen refresh rate</string>
     <string name="auto_refresh_rate_summary">Let apps decide what refresh rate to use</string>
     <string name="auto_refresh_rate_title">Auto refresh mode</string>
-    <string name="refresh_rate_summary">Choose between 60Hz or 90Hz peak refresh</string>
-    <string name="refresh_rate_title">Force 90Hz peak refresh rate</string>
-    <string name="refresh_rate_warning">Using forced 90Hz will impact battery life significantly</string>
+    <string name="refresh_rate_summary">Choose between 60Hz or 120Hz peak refresh</string>
+    <string name="refresh_rate_title">Force 120Hz peak refresh rate</string>
+    <string name="refresh_rate_warning">Using forced 120Hz will impact battery life significantly</string>
     <string name="fps_info_title">FPS overlay</string>
     <string name="fps_info_summary">Show overlay with with current frames per second</string>
     <string name="panel_mode_info">Disable panel mode requires reboot.</string>
@@ -80,7 +80,7 @@
     <string name="slider_toast_dnd">DND - No interruptions</string>
     <string name="slider_toast_priority">DND - Priority only</string>
     <string name="slider_toast_silent">Calls and notifications will be muted</string>
-
+    
     <!-- Log Tile -->
     <string name="quick_settings_log_tile_label">LogTile</string>
     <string name="quick_settings_log_tile_dialog_title">Options</string>
