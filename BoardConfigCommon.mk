@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-PRODUCT_USES_QCOM_HARDWARE := true
-PRODUCT_BOARD_PLATFORM := sm8250
 BUILD_BROKEN_DUP_RULES := true
 
 BOARD_VENDOR := oneplus
